@@ -7,3 +7,10 @@ This program is being produced by myself, someone who is learning Python as we s
 
 
 Have you ever wanted to really spice up a game? Maybe grabbing the same guns in Apex Legends is starting to bore you, or you're indecisive on who you want to play in Civ 6. Well, RandGame is for you! With just the simple input of a number, RandGame will randomly produce a way to play!
+
+
+----HOW TO USE----
+1) Run the program
+2) Read the selections and input the corresponding numbers
+3) Reroll if needed
+4) Play and have fun!
