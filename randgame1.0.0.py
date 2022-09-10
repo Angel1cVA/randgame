@@ -30,7 +30,9 @@ elif gameName == 2:
 elif gameName == 3:
     print("Reroll if you dont own the rolled Legend. Otherwise, you're stuck with what you got. If you get only Care Package weapons, you may use your hands and grenades until you get one of the weapons. You may not, however, use your hands or grenades if you do not have those as options when you have guns.")
     LegendList = ['Bloodhound' , 'Gibralter' , 'Lifeline' , 'Wraith' , 'Pathfinder' , 'Bangalore' , 'Caustic' , 'Mirage' , 'Octane' , 'Wattson' , 'Crypto' , 'Revenant' , 'Loba' , 'Rampart' , 'Horizon' , 'Fuze' , 'Valkerie' , 'Seer' , 'Ashe' , 'Mad Maggie' , 'Newcastle' , 'Vantage']
-    GunList = ['Fists' , 'Grenades' , 'P2020' , 'Mozambique' , 'RE-45' , 'Wingman' , 'Peacekeeper' , 'EVA-8' , 'Flatline' , 'R-301' , 'HAVOC' , 'Hemlock' , 'R-99' , 'Prowler' , 'Volt' , 'CAR' , 'G7 Scout' , 'Triple Take' , '3030 Repeater' , 'Charge Rifle' , 'Longbow DMR' , 'Sentinel' , 'Rampage' , 'Spitfire' , 'L-STAR' , 'Kraber' , 'Mastiff' , 'Bochec Compound Bow' , 'Rampage']
+    GunList = ['Fists' , 'Grenades' , 'P2020' , 'Mozambique' , 'RE-45' , 'Wingman' , 'Peacekeeper' , 'EVA-8' , 'Flatline' , 'R-301' , 'HAVOC' , 'Hemlock' , 'R-99' , 'Prowler' , 'Volt' , 'CAR' , 'G7 Scout' , 'Triple Take' , '3030 Repeater' , 'Charge Rifle' , 'Longbow DMR' , 'Sentinel' , 'Devotion' , 'Spitfire' , 'L-STAR']
+    #, 'Kraber' , 'Mastiff' , 'Bochec Compound Bow' , 'Rampage'
+    #Use above line of code after the L-Star to include Care Package Weapons
     randLegend = random.choice(LegendList)
     randGun1 = random.choice(GunList)
     randGun2 = random.choice(GunList)
