@@ -1,5 +1,5 @@
 # randgame
-A game randomizer, currently featuring 3 popular games!
+A game randomizer, currently featuring 4 popular games!
 
 
 ----DISCLAIMER----
