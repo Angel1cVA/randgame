@@ -34,11 +34,11 @@ while start == 1:
 		'Bandle City': ['Fizz' , 'Gnar' , 'Heimerdinger' , 'Kennen' , 'Lulu' , 'Norra' , 'Poppy' , 'Rumble' , 'Teemo' , 'Tristana' , 'Veigar' , 'Yummi' , 'Ziggs'],
 		'Bilgewater': ['Fizz' , 'Gangplank' , 'Illaoi' , 'Miss Fortune' , 'Nautilus' , 'Nami' , 'Pyke' , 'Tahm Kench' , 'Twisted Fate'],
 		'Shadow Isle': ['Elise' , 'Gwen' , 'Hecarim' , 'Kalista' , 'Kindred' , 'Maokai' , 'Nocturne' , 'Senna' , 'Thresh' , 'Veigar' , 'Viego'],
-		'Demacia': ['Fiora' , 'Galio' , 'Garen' , 'Jarvan IV' , 'Lucian' , 'Lux' , 'Poppy' , 'Quinn' , 'Shyvana'],
-		'Piltover and Zaun': ['Caitlyn' , 'Ekko' , 'Ezreal' , 'Heimerdinger' , 'Jayce' , 'Jinx' , 'Teemo' , 'Vi' , 'Viktor'],
+		'Demacia': ['Fiora' , 'Galio' , 'Garen' , 'Jarvan IV' , 'Lucian' , 'Lux' , 'Poppy' , 'Quinn' , 'Shyvana', 'Vayne'],
+		'Piltover and Zaun': ['Caitlyn' , 'Ekko' , 'Ezreal' , 'Heimerdinger' , 'Jayce' , 'Jinx' , 'Teemo' , 'Vi' , 'Viktor', 'Seraphine'],
 		'Ionia': ['Ahri' , 'Irellia' , 'Karma' , 'Kennen' , 'Lee Sin' , 'Lulu' , 'Master Yi' , 'Shen' , ' Yasuo' , 'Zed'],
 		'Targon': ['Arulion Sol' , 'Aphelios' , 'Diana' , 'Leona' , 'Malphite' , 'Pantheon' , 'Soraka' , 'Taric' , 'Yuumi' , 'Zoe'],
-		'Runeterra': ['Evelynn' , 'Bard' , 'Jax' , 'Jhin' , 'Kayn']
+		'Runeterra': ['Evelynn' , 'Bard' , 'Jax' , 'Jhin' , 'Kayn', 'Varus']
 		}
 
 		region1 = random.choice(list(LoR.keys()))
@@ -61,7 +61,7 @@ while start == 1:
 		print('If you get duplicate Held Items, congrats! You get to pick the replacement for the duplication. Top Side and Bottom side are interchangeable, based on if one is full and if the other is not. GLHF!')
 		Unite = {
 		'Role': ['Top' , 'Bottom' , 'Middle'],
-		'Pokemon': ['Mew' , 'Tyranitar' , 'Buzzwole' , 'Glaceon' , 'Delphox' , 'Espeon' , 'Azumarill' , 'Duraludon' , 'Hoopa' , 'Aegislash' , 'Trevanent' , 'Dragonite' , 'Tsareena' , 'Decidueye' , 'Sylveon' , 'Mamoswine' , 'Blastoise' , 'Blissy' , 'Gardevoir' , 'Zeraora' , 'Pikachu' 'Charizard' , 'Snorlax' , 'Crustle' , 'Greninja' , 'Eldegoss' , 'Talonflame' , 'Lucario' , 'Venasaur' , 'Mr. Mime' , 'Slowbro' , 'Absol' , 'Machamp' , 'Wigglytuff' , 'Alolan Ninetails' , 'Cramorant' , 'Gengar' , 'Garchomp' , 'Cindrance'],
+		'Pokemon': ['Mew' , 'Tyranitar' , 'Buzzwole' , 'Glaceon' , 'Delphox' , 'Espeon' , 'Azumarill' , 'Duraludon' , 'Hoopa' , 'Aegislash' , 'Trevanent' , 'Dragonite' , 'Tsareena' , 'Decidueye' , 'Sylveon' , 'Mamoswine' , 'Blastoise' , 'Blissy' , 'Gardevoir' , 'Zeraora' , 'Pikachu' 'Charizard' , 'Snorlax' , 'Crustle' , 'Greninja' , 'Eldegoss' , 'Talonflame' , 'Lucario' , 'Venasaur' , 'Mr. Mime' , 'Slowbro' , 'Absol' , 'Machamp' , 'Wigglytuff' , 'Alolan Ninetails' , 'Cramorant' , 'Gengar' , 'Garchomp' , 'Cindrance' , 'Clefable' , 'Scizor' , 'Dodrio'],
 		'Held Items': ['Muscle Band' , 'Scope Lens' , 'Shell Bell' , 'Wise Glasses' , 'Focus Band' , 'Energy Amplifier' , 'Float Stone' , 'Buddy Barrier' , 'Score Shield' , 'Aeos Cookie' , 'Attack Weight' , 'Sp. Attack Specs' , 'Leftovers' , 'Exp. Share' , 'Assault Vest' , 'Rocky Helmet' , 'Razor Claw' , 'Choice Specs' , 'Weakness Policy']
 		}
 	
@@ -91,7 +91,7 @@ while start == 1:
 		'Monsters' : ['Chameleos' , 'Risen Chameleos' , 'Crimson Glow Valstrax' , 'Gaismagorm' , 'Gore Magala' , 'Shagaru Magala' , 'Kushala Daora' , 'Teostra' , 'Wind Serpent Ibushi' , 'Thunder Serpent Narwa' , 'Narwa the Allmother' , 'Malzeno' , 'Apex Arzuros' , 'Apex Rathian' , 'Apex Rathalos' , 'Apex Zinogre' , 'Apex Mizutsune' , 'Apex Diablos' 'Aknosom' , 'Almudron' , 'Magma Almudron' , 'Anjanath' , 'Arzuros' , 'Astalos' , 'Barioth' , 'Barroth' , 'Basarios' , 'Bezelguese' , 'Seething Bezelguese' , 'Bishaten' , 'Blood Orange Bishaten (AKA Bob)' , 'Damiyo Hermitaur' , 'Diablos' , 'Espinas' , 'Flaming Espinas' , 'Rajang' , 'Furious Rajang' , 'Somnacanth' , 'Aurora Somnacanth' , 'Garangolm' , 'Rathian' , 'Gold Rathian' , 'Goss Harag' , 'Great Baggi' , 'Great Izuchi' , 'Great Wroggi' , 'Jyuratodus' , 'Khezu' , 'Kulu-Ya-Ku' , 'Lagombi' , 'Nargacuga' , 'Lucient Nargacuga' , 'Lunagaron' , 'Magnamalo' , 'Scorned Magnamalo' , 'Mizutsune' , 'Violet Mizutsune' , 'Pukei-Pukei' , 'Rakna-Kadaki' , 'Pyre Rakna-Kadaki' , 'Rathalos' , 'Silver Rathalos' , 'Royal Ludroth' , 'Seregios' , 'Shogun Caenataur' , 'Tentranadon' , 'Tigrex' , 'Tobi-Kadachi' , 'Volvidon' , 'Zinogre']
 		}
 
-		print(f'Using {random.choice(Rise["Weapons"])} you will complete a {random.choice(Rise["Quest Type"])} quest. Your quest target will be a {random.choice(Rise["Monsters"])}. Please reroll if you do not have access to your target or if no such quest exists.')
+		print(f'Using {random.choice(Rise["Weapons"])} you will complete a {random.choice(Rise["Quest Type"])} quest. Your quest target will be a {random.choice(Rise["Monsters"])}. Please reroll if you do not have access to your target or if no such quest exists. (You may use a hunt quest to capture. If you roll Hunt, you must kill it. Additionally, you may use Event Quests if you cannot find a hunt of the monsters or type you rolled.')
 
 
 	elif gameName == 7:
